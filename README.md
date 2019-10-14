@@ -83,6 +83,8 @@ All properties mentioned below must be nested under the `style` prop. Examples o
 #### Android-specific
 
 -   The native Picker in its inactive state acts looks similar to a TextInput, but it has limitations on custom styling. Any styling that is possible can be applied via `inputAndroid`.
+
+
 -   You can add some styling customization to the active-state native Picker, [but that requires modifying some xml files](https://stackoverflow.com/a/39141949/1437023)
 -   If you set the prop `useNativeAndroidPickerStyle` to false, the component will allow a few other style objects: `inputAndroidContainer`, `placeholder`, and `inputAndroid`
 -   Other styles that can be modified for Android are named `headlessAndroidContainer` and `viewContainer`
